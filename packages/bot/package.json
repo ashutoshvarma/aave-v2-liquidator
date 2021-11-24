@@ -1,0 +1,28 @@
+{
+  "name": "@moola-v2-liquidator/bot",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "typescript",
+    "bot"
+  ],
+  "author": {
+    "name": "Ashutosh Varma",
+    "url": "https://github.com/ashutoshvarma"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashutoshvarma/moola-liquidator-v2"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "clean": "(rm -r ./dist || true)",
+    "prepare": "yarn build"
+  }
+}
