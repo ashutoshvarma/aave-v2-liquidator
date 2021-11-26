@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import BigNumber from 'bignumber.js'
 import { request, gql } from 'graphql-request'
-import Config from './config'
+import Config, { logger } from './config'
 import { AddressToCeloToken, CeloToken } from './constants'
 import Oracle from './oracle'
 import { setIntervalSeq, tenRaiseTo } from './utils'
@@ -16,9 +16,9 @@ interface UserDataResponse {
   users: User[]
 }
 
-interface Loan {
+export interface Loan {
   user: string
-  userData: User
+  // userData: User
   healthFactor: BigNumber
   maxCollateral: {
     token: CeloToken
@@ -94,10 +94,15 @@ export class Loans {
   }
 
   private static async _runPolling() {
+    logger.debug('Loans::_runPolling: Starting')
     Loans._users = await fetchUserData()
+    logger.debug(
+      `Loans::_runPolling: Finished. Total Active Loans - ${Loans._users.length}`,
+    )
   }
 
   public static Initialize() {
+    logger.info('Loans::Initialize(): Initialized')
     return this._instance || (this._instance = new this())
   }
 
@@ -106,17 +111,24 @@ export class Loans {
   }
 
   public static async start() {
-    if (Loans.isRunning()) return
-
+    if (Loans.isRunning()) {
+      logger.info('Loans::start(): Already Running')
+    }
     await Loans._runPolling()
     Loans._intervalFunc = setIntervalSeq(
       Loans._runPolling,
       Config.subgraph_polling,
     )
+    logger.info('Loans::start(): Started')
   }
 
   public static stop() {
-    if (Loans._intervalFunc) clearInterval(Loans._intervalFunc)
+    if (Loans._intervalFunc) {
+      clearInterval(Loans._intervalFunc)
+      logger.info('Loans:"stop() Stopped')
+    } else {
+      logger.info('Loans:"stop() Not Running')
+    }
   }
 
   public static async getUnHealthy(): Promise<Loan[]> {
@@ -177,7 +189,7 @@ export class Loans {
 
       unhealthy.push({
         healthFactor,
-        userData,
+        // userData,
         user: userData.userId,
         maxBorrowed: {
           priceInCelo: maxBorrowedInCelo,
@@ -192,9 +204,15 @@ export class Loans {
       })
     }
 
-    return unhealthy.sort((a, b) =>
-      a.healthFactor.minus(b.healthFactor).toNumber(),
+    const filteredLoans = unhealthy
+      .filter((l) => l.healthFactor.lte(Config.health_factor_max))
+      .sort((a, b) => a.healthFactor.minus(b.healthFactor).toNumber())
+
+    logger.info(
+      `Loans::getUnHealthy(): Total Loans - ${unhealthy.length}, UnHealthy Loans - ${filteredLoans.length}`,
     )
+    console.log(JSON.stringify(filteredLoans, null, 2))
+    return filteredLoans
   }
 }
 

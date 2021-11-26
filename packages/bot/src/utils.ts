@@ -1,4 +1,5 @@
 import BigNumber from 'bignumber.js'
+import { logger } from './config'
 
 export function setIntervalSeq(fn: () => void, ms: number, timeout?: number) {
   const tm = timeout ? timeout : ms
@@ -6,7 +7,10 @@ export function setIntervalSeq(fn: () => void, ms: number, timeout?: number) {
     try {
       setTimeout(fn, tm)
     } catch (error) {
-      console.error(error)
+      logger.error(
+        `setIntervalSeq(${fn.name}(), ${ms}, ${timeout}): Error Occured`,
+      )
+      logger.error(error)
     }
   }, ms)
 }
