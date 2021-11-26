@@ -1,4 +1,27 @@
 {
   "name": "@moola-v2-liquidator/contracts",
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.1.0",
+  "scripts": {
+    "deploy:celo": "yarn hardhat deploy --network celo",
+    "deploy:alfajores": "yarn hardhat deploy --network alfajores",
+    "deploy": "yarn deploy",
+    "compile": "yarn hardhat compile"
+  },
+  "devDependencies": {
+    "@typechain/hardhat": "^3.0.0",
+    "@types/chai": "^4.2.22",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.10",
+    "@ubeswap/hardhat-celo": "^0.9.0",
+    "chai": "^4.3.4",
+    "chai-ethers": "^0.0.1",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.7.0",
+    "hardhat-deploy": "^0.9.12",
+    "hardhat-deploy-ethers": "^0.3.0-beta.11",
+    "mocha": "^9.1.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
 }
