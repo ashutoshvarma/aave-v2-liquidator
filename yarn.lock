@@ -695,11 +695,14 @@ __metadata:
   resolution: "@moola-v2-liquidator/bot@workspace:packages/bot"
   dependencies:
     "@celo/contractkit": ^1.3.3
+    "@moola-v2-liquidator/contracts": ^0.1.0
+    "@types/bn.js": ^5.1.0
     "@types/node": ^16.11.10
     "@typescript-eslint/eslint-plugin": ^5.4.0
     "@typescript-eslint/parser": ^5.4.0
     "@ubeswap/sdk": ^2.1.1
     bignumber.js: ^9.0.0
+    bn.js: ^5.2.0
     dotenv: ^10.0.0
     eslint: ^8.3.0
     eslint-config-prettier: ^8.3.0
@@ -711,19 +714,23 @@ __metadata:
     ts-node: ^10.4.0
     typescript: ^4.5.2
     web3: ^1.6.1
+    web3-core: ^1.6.1
+    web3-eth-contract: ^1.6.1
     winston: ^3.3.3
   languageName: unknown
   linkType: soft
 
-"@moola-v2-liquidator/contracts@workspace:packages/contracts":
+"@moola-v2-liquidator/contracts@^0.1.0, @moola-v2-liquidator/contracts@workspace:packages/contracts":
   version: 0.0.0-use.local
   resolution: "@moola-v2-liquidator/contracts@workspace:packages/contracts"
   dependencies:
     "@typechain/hardhat": ^3.0.0
+    "@types/bn.js": ^5.1.0
     "@types/chai": ^4.2.22
     "@types/mocha": ^9.0.0
     "@types/node": ^16.11.10
     "@ubeswap/hardhat-celo": ^0.9.0
+    bn.js: ^5.2.0
     chai: ^4.3.4
     chai-ethers: ^0.0.1
     dotenv: ^10.0.0
@@ -734,6 +741,8 @@ __metadata:
     mocha: ^9.1.3
     ts-node: ^10.4.0
     typescript: ^4.5.2
+    web3-core: ^1.6.1
+    web3-eth-contract: ^1.6.1
   languageName: unknown
   linkType: soft
 
@@ -988,23 +997,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typechain/ethers-v5@npm:*":
-  version: 8.0.5
-  resolution: "@typechain/ethers-v5@npm:8.0.5"
-  dependencies:
-    lodash: ^4.17.15
-    ts-essentials: ^7.0.1
-  peerDependencies:
-    "@ethersproject/abi": ^5.0.0
-    "@ethersproject/bytes": ^5.0.0
-    "@ethersproject/providers": ^5.0.0
-    ethers: ^5.1.3
-    typechain: ^6.0.4
-    typescript: ">=4.0.0"
-  checksum: d6c0f3114a9b853b6288ca00406f21e2ade75908cac8e230510be1d130c05da5a239923428cf221d547d2f9d79bdf234285f070948e62d4f87526e8ab433215b
-  languageName: node
-  linkType: hard
-
 "@typechain/hardhat@npm:^3.0.0":
   version: 3.0.0
   resolution: "@typechain/hardhat@npm:3.0.0"
@@ -1015,6 +1007,19 @@ __metadata:
     lodash: ^4.17.15
     typechain: ^6.0.0
   checksum: 942a58851abe77691f0c9640e7b007c3822ae652b971a0e9cb1518e16ca6406ca026cec29287386ae06dc5444732c6796d9f4987ee58a79ebc403bb101b12396
+  languageName: node
+  linkType: hard
+
+"@typechain/web3-v1@npm:*":
+  version: 4.0.0
+  resolution: "@typechain/web3-v1@npm:4.0.0"
+  dependencies:
+    lodash: ^4.17.15
+    ts-essentials: ^7.0.1
+  peerDependencies:
+    typechain: ^6.0.0
+    web3: ^1.0.0
+  checksum: 9cf6d0bb361da6079d54cc5d1f9d71245d08f7c6857c5ea86502c3307f9be89fddca60e7ed0707d83b439db5162960158ab4aaac677551ec789180e3323e636b
   languageName: node
   linkType: hard
 
@@ -8516,7 +8521,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web3-core@npm:1.6.1":
+"web3-core@npm:1.6.1, web3-core@npm:^1.6.1":
   version: 1.6.1
   resolution: "web3-core@npm:1.6.1"
   dependencies:
@@ -8590,7 +8595,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"web3-eth-contract@npm:*, web3-eth-contract@npm:1.6.1":
+"web3-eth-contract@npm:*, web3-eth-contract@npm:1.6.1, web3-eth-contract@npm:^1.6.1":
   version: 1.6.1
   resolution: "web3-eth-contract@npm:1.6.1"
   dependencies:

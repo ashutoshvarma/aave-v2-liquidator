@@ -1,0 +1,18 @@
+2021-11-27T10:26:25.504Z [32minfo[39m: 	Oracle::Initialize(): Initialized
+2021-11-27T10:26:25.519Z [32minfo[39m: 	Loans::Initialize(): Initialized
+2021-11-27T10:26:25.519Z [32minfo[39m: 	LiquidationBot::Initialize(): Initialized
+2021-11-27T10:26:25.809Z [32minfo[39m: 	Oracle::start(): Started
+2021-11-27T10:26:57.079Z [32minfo[39m: 	Loans::start(): Started
+2021-11-27T10:26:57.192Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:26:57.195Z [32minfo[39m: 	LiquidationBot::start(): Started
+2021-11-27T10:27:01.262Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:03.314Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:05.368Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:07.417Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:09.468Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:11.520Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:13.568Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:15.617Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:17.655Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:19.698Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T10:27:21.739Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0

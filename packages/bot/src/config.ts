@@ -45,6 +45,7 @@ const Config = {
   bot_polling: 2000,
   health_factor_max: new BigNumber(1),
   flash_loan_fee: new BigNumber(0.009),
+  max_amount_liquidate: new BigNumber(0.5),
   subgraph_endpoint:
     process.env.MOOLA_SUBGRAPH ||
     'https://api.thegraph.com/subgraphs/name/ashutoshvarma/moola-v2-celo',

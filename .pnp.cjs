@@ -855,11 +855,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@moola-v2-liquidator/bot", "workspace:packages/bot"],
             ["@celo/contractkit", "npm:1.3.3"],
+            ["@moola-v2-liquidator/contracts", "workspace:packages/contracts"],
+            ["@types/bn.js", "npm:5.1.0"],
             ["@types/node", "npm:16.11.10"],
             ["@typescript-eslint/eslint-plugin", "virtual:e45676a2a30e2c3b7c967d2829c93817ae6cbf35aede4949affbc81753a2fd544722b3a13f839127fdfe41ec7682a27d59fbc231ef09f1811951b8f545063ab1#npm:5.4.0"],
             ["@typescript-eslint/parser", "virtual:e45676a2a30e2c3b7c967d2829c93817ae6cbf35aede4949affbc81753a2fd544722b3a13f839127fdfe41ec7682a27d59fbc231ef09f1811951b8f545063ab1#npm:5.4.0"],
             ["@ubeswap/sdk", "virtual:f189d087b59ab57467618ca89d2cae0de636a4bf40d6fa3186264fe9c9ef6c031185cbc29ca5ccd203f54e4119d3ca74ac9886a363fc656acaf03d32b889385a#npm:2.1.1"],
             ["bignumber.js", "npm:9.0.1"],
+            ["bn.js", "npm:5.2.0"],
             ["dotenv", "npm:10.0.0"],
             ["eslint", "npm:8.3.0"],
             ["eslint-config-prettier", "virtual:e45676a2a30e2c3b7c967d2829c93817ae6cbf35aede4949affbc81753a2fd544722b3a13f839127fdfe41ec7682a27d59fbc231ef09f1811951b8f545063ab1#npm:8.3.0"],
@@ -871,6 +874,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ts-node", "virtual:e45676a2a30e2c3b7c967d2829c93817ae6cbf35aede4949affbc81753a2fd544722b3a13f839127fdfe41ec7682a27d59fbc231ef09f1811951b8f545063ab1#npm:10.4.0"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"],
             ["web3", "npm:1.6.1"],
+            ["web3-core", "npm:1.6.1"],
+            ["web3-eth-contract", "npm:1.6.1"],
             ["winston", "npm:3.3.3"]
           ],
           "linkType": "SOFT",
@@ -882,10 +887,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@moola-v2-liquidator/contracts", "workspace:packages/contracts"],
             ["@typechain/hardhat", "virtual:5c2de4e8d2d1c7f2691832788c62e49f9be3df31f589dec7018d26de9447c8c73f5fabe9a6a89a5cde3b6080b6c4ac4838eab7d24d72cf0d5474161855a70b60#npm:3.0.0"],
+            ["@types/bn.js", "npm:5.1.0"],
             ["@types/chai", "npm:4.2.22"],
             ["@types/mocha", "npm:9.0.0"],
             ["@types/node", "npm:16.11.10"],
             ["@ubeswap/hardhat-celo", "virtual:5c2de4e8d2d1c7f2691832788c62e49f9be3df31f589dec7018d26de9447c8c73f5fabe9a6a89a5cde3b6080b6c4ac4838eab7d24d72cf0d5474161855a70b60#npm:0.9.0"],
+            ["bn.js", "npm:5.2.0"],
             ["chai", "npm:4.3.4"],
             ["chai-ethers", "npm:0.0.1"],
             ["dotenv", "npm:10.0.0"],
@@ -895,7 +902,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["hardhat-deploy-ethers", "virtual:5c2de4e8d2d1c7f2691832788c62e49f9be3df31f589dec7018d26de9447c8c73f5fabe9a6a89a5cde3b6080b6c4ac4838eab7d24d72cf0d5474161855a70b60#npm:0.3.0-beta.11"],
             ["mocha", "npm:9.1.3"],
             ["ts-node", "virtual:e45676a2a30e2c3b7c967d2829c93817ae6cbf35aede4949affbc81753a2fd544722b3a13f839127fdfe41ec7682a27d59fbc231ef09f1811951b8f545063ab1#npm:10.4.0"],
-            ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]
+            ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"],
+            ["web3-core", "npm:1.6.1"],
+            ["web3-eth-contract", "npm:1.6.1"]
           ],
           "linkType": "SOFT",
         }]
@@ -1204,50 +1213,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
-      ["@typechain/ethers-v5", [
-        ["npm:8.0.5", {
-          "packageLocation": "./.yarn/cache/@typechain-ethers-v5-npm-8.0.5-f3d9ac26e6-d6c0f3114a.zip/node_modules/@typechain/ethers-v5/",
-          "packageDependencies": [
-            ["@typechain/ethers-v5", "npm:8.0.5"]
-          ],
-          "linkType": "SOFT",
-        }],
-        ["virtual:1d14e975c5309b4a2f3f31b96583f153e96f9fd4a2e76042b490d905e4cc8a0c87fcb1859b16f4f2e1cd20a3816cf905a2ff11040970e5b9a5b4d71c84666f57#npm:8.0.5", {
-          "packageLocation": "./.yarn/__virtual__/@typechain-ethers-v5-virtual-be75bd9899/0/cache/@typechain-ethers-v5-npm-8.0.5-f3d9ac26e6-d6c0f3114a.zip/node_modules/@typechain/ethers-v5/",
-          "packageDependencies": [
-            ["@typechain/ethers-v5", "virtual:1d14e975c5309b4a2f3f31b96583f153e96f9fd4a2e76042b490d905e4cc8a0c87fcb1859b16f4f2e1cd20a3816cf905a2ff11040970e5b9a5b4d71c84666f57#npm:8.0.5"],
-            ["@ethersproject/abi", null],
-            ["@ethersproject/bytes", null],
-            ["@ethersproject/providers", null],
-            ["@types/ethers", null],
-            ["@types/ethersproject__abi", null],
-            ["@types/ethersproject__bytes", null],
-            ["@types/ethersproject__providers", null],
-            ["@types/typechain", null],
-            ["@types/typescript", null],
-            ["ethers", null],
-            ["lodash", "npm:4.17.21"],
-            ["ts-essentials", "virtual:1d14e975c5309b4a2f3f31b96583f153e96f9fd4a2e76042b490d905e4cc8a0c87fcb1859b16f4f2e1cd20a3816cf905a2ff11040970e5b9a5b4d71c84666f57#npm:7.0.3"],
-            ["typechain", "virtual:cd608476f80f9dd84ee5756abd060c6ca0e3ccf9c44ac58d1f88b0603dd395dd46e0182a363254588f134d3d7d215dcb74b7984ed2955c9eb32b71e77eae1a6b#npm:6.0.4"],
-            ["typescript", null]
-          ],
-          "packagePeers": [
-            "@ethersproject/abi",
-            "@ethersproject/bytes",
-            "@ethersproject/providers",
-            "@types/ethers",
-            "@types/ethersproject__abi",
-            "@types/ethersproject__bytes",
-            "@types/ethersproject__providers",
-            "@types/typechain",
-            "@types/typescript",
-            "ethers",
-            "typechain",
-            "typescript"
-          ],
-          "linkType": "HARD",
-        }]
-      ]],
       ["@typechain/hardhat", [
         ["npm:3.0.0", {
           "packageLocation": "./.yarn/cache/@typechain-hardhat-npm-3.0.0-4034961e57-942a58851a.zip/node_modules/@typechain/hardhat/",
@@ -1273,6 +1238,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/lodash",
             "@types/typechain",
             "hardhat"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@typechain/web3-v1", [
+        ["npm:4.0.0", {
+          "packageLocation": "./.yarn/cache/@typechain-web3-v1-npm-4.0.0-8d2c6ac8a3-9cf6d0bb36.zip/node_modules/@typechain/web3-v1/",
+          "packageDependencies": [
+            ["@typechain/web3-v1", "npm:4.0.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:1d14e975c5309b4a2f3f31b96583f153e96f9fd4a2e76042b490d905e4cc8a0c87fcb1859b16f4f2e1cd20a3816cf905a2ff11040970e5b9a5b4d71c84666f57#npm:4.0.0", {
+          "packageLocation": "./.yarn/__virtual__/@typechain-web3-v1-virtual-808b4a0d48/0/cache/@typechain-web3-v1-npm-4.0.0-8d2c6ac8a3-9cf6d0bb36.zip/node_modules/@typechain/web3-v1/",
+          "packageDependencies": [
+            ["@typechain/web3-v1", "virtual:1d14e975c5309b4a2f3f31b96583f153e96f9fd4a2e76042b490d905e4cc8a0c87fcb1859b16f4f2e1cd20a3816cf905a2ff11040970e5b9a5b4d71c84666f57#npm:4.0.0"],
+            ["@types/typechain", null],
+            ["@types/web3", null],
+            ["lodash", "npm:4.17.21"],
+            ["ts-essentials", "virtual:1d14e975c5309b4a2f3f31b96583f153e96f9fd4a2e76042b490d905e4cc8a0c87fcb1859b16f4f2e1cd20a3816cf905a2ff11040970e5b9a5b4d71c84666f57#npm:7.0.3"],
+            ["typechain", "virtual:cd608476f80f9dd84ee5756abd060c6ca0e3ccf9c44ac58d1f88b0603dd395dd46e0182a363254588f134d3d7d215dcb74b7984ed2955c9eb32b71e77eae1a6b#npm:6.0.4"],
+            ["web3", null]
+          ],
+          "packagePeers": [
+            "@types/typechain",
+            "@types/web3",
+            "typechain",
+            "web3"
           ],
           "linkType": "HARD",
         }]
@@ -9379,7 +9372,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/typechain-virtual-1d14e975c5/0/cache/typechain-npm-6.0.4-b77cd72ff5-01359cc85c.zip/node_modules/typechain/",
           "packageDependencies": [
             ["typechain", "virtual:cd608476f80f9dd84ee5756abd060c6ca0e3ccf9c44ac58d1f88b0603dd395dd46e0182a363254588f134d3d7d215dcb74b7984ed2955c9eb32b71e77eae1a6b#npm:6.0.4"],
-            ["@typechain/ethers-v5", "virtual:1d14e975c5309b4a2f3f31b96583f153e96f9fd4a2e76042b490d905e4cc8a0c87fcb1859b16f4f2e1cd20a3816cf905a2ff11040970e5b9a5b4d71c84666f57#npm:8.0.5"],
+            ["@typechain/web3-v1", "virtual:1d14e975c5309b4a2f3f31b96583f153e96f9fd4a2e76042b490d905e4cc8a0c87fcb1859b16f4f2e1cd20a3816cf905a2ff11040970e5b9a5b4d71c84666f57#npm:4.0.0"],
             ["@types/prettier", "npm:2.4.2"],
             ["@types/typescript", null],
             ["command-line-args", "npm:4.0.7"],
