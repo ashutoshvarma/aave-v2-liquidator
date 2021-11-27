@@ -6,7 +6,6 @@ import BigNumber from 'bignumber.js'
 
 export enum NetworkNames {
   Alfajores = 'Alfajores',
-  Baklava = 'Baklava',
   Mainnet = 'Mainnet',
 }
 
@@ -16,14 +15,6 @@ export const Alfajores = {
   graphQl: 'https://alfajores-blockscout.celo-testnet.org/graphiql',
   explorer: 'https://alfajores-blockscout.celo-testnet.org',
   chainId: ChainId.ALFAJORES,
-} as const
-
-export const Baklava = {
-  name: NetworkNames.Baklava,
-  rpcUrl: 'https://baklava-forno.celo-testnet.org',
-  graphQl: 'https://baklava-blockscout.celo-testnet.org/graphiql',
-  explorer: 'https://baklava-blockscout.celo-testnet.org',
-  chainId: ChainId.BAKLAVA,
 } as const
 
 export const Mainnet = {
