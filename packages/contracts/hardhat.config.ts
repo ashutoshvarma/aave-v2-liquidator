@@ -33,7 +33,7 @@ const config: HardhatUserConfig = {
       url: fornoURLs[ICeloNetwork.MAINNET],
       // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       accounts: [process.env.CELO_PRIVATE_KEY!],
-      chainId: ICeloNetwork.ALFAJORES,
+      chainId: ICeloNetwork.MAINNET,
       live: true,
       gasPrice: 0.5 * 10 ** 9,
       gas: 8000000,
@@ -47,6 +47,7 @@ const config: HardhatUserConfig = {
   },
   typechain: {
     outDir: 'generated',
+    target: 'web3-v1',
   },
 }
 export default config
