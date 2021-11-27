@@ -6,6 +6,7 @@ import Oracle from './oracle'
 import { setIntervalSeq } from './utils'
 import { LiquidateLoan } from '@moola-v2-liquidator/contracts/generated/LiquidateLoan'
 import { CeloTokenToAddress, swapPath } from './constants'
+import { TransactionReceipt } from 'web3-core'
 
 async function getLiquidationContract(kit: ContractKit) {
   let jsonFile
@@ -41,6 +42,8 @@ class LiquidationBot {
   }
 
   private static async _liquidate(loan: Loan) {
+    let reciept: TransactionReceipt | undefined
+    let debugData
     try {
       const assetToLiquidate = CeloTokenToAddress[loan.maxBorrowed.token]
       const flashAmt = loan.maxBorrowed.principal.multipliedBy(
@@ -48,7 +51,14 @@ class LiquidationBot {
       )
       const collateral = CeloTokenToAddress[loan.maxCollateral.token]
       const swapP = swapPath(collateral, assetToLiquidate)
-      const reciept = await LiquidationBot._liquidation.methods
+      debugData = {
+        assetToLiquidate,
+        flashAmt,
+        collateral,
+        swapP,
+        loan,
+      }
+      reciept = await LiquidationBot._liquidation.methods
         .executeFlashLoans(
           assetToLiquidate,
           flashAmt.toString(),
@@ -58,7 +68,29 @@ class LiquidationBot {
         )
         .send()
     } catch (err) {
-      //
+      logger.error(
+        `LiquidationBot::_liquidate(${loan.user}): Error while Attempting Liquidation of user ${loan.user} with HF ${loan.healthFactor}`,
+      )
+      logger.error(JSON.stringify({ debugData, reciept }))
+      logger.error(err)
+    } finally {
+      const logOut = {
+        ...reciept,
+        debugData,
+      }
+
+      logger.info(
+        `LiquidationBot::_liquidate(${loan.user}): Attempted Liquidation of user ${loan.user} with HF ${loan.healthFactor}`,
+      )
+      if (reciept?.status === true) {
+        logger.info(`\n${JSON.stringify(logOut, null, 2)}`)
+      } else if (reciept?.status === false) {
+        logger.error(`\n${JSON.stringify(logOut, null, 2)}`)
+      } else {
+        logger.error(
+          `\n${JSON.stringify({ ...logOut, reciept: null }, null, 2)}`,
+        )
+      }
     }
   }
 

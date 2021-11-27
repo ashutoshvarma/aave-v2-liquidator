@@ -35,6 +35,7 @@ export const Mainnet = {
 } as const
 
 const Config = {
+  log_file: 'logs.log',
   log_level: process.env.CELO_LOG_LEVEL || 'info',
   rpc_url: process.env.CELO_RPC || Mainnet.rpcUrl,
   chain_id: process.env.CELO_CHAIN_ID
@@ -66,9 +67,8 @@ export const logger = createLogger({
       ),
     }),
     new transports.File({
-      filename: 'logs.log',
+      filename: Config.log_file,
       format: format.combine(
-        format.colorize(),
         format.timestamp(),
         format.align(),
         format.printf(

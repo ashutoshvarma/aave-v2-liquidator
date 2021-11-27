@@ -211,7 +211,7 @@ export class Loans {
     logger.info(
       `Loans::getUnHealthy(): Total Loans - ${unhealthy.length}, UnHealthy Loans - ${filteredLoans.length}`,
     )
-    console.log(JSON.stringify(filteredLoans, null, 2))
+    logger.silly('\n' + JSON.stringify(filteredLoans.slice(0, 10), null, 2))
     return filteredLoans
   }
 }

@@ -6,10 +6,11 @@
     "packages/*"
   ],
   "scripts": {
+    "prepare": "yarn compile",
     "compile": "yarn workspace @moola-v2-liquidator/contracts compile",
     "deploy": "yarn workspace @moola-v2-liquidator/contracts deploy:celo",
     "build": "yarn workspace @moola-v2-liquidator/bot build",
-    "start": "yarn workspace @moola-v2-liquidator/bot node dist/index.js"
+    "start": "yarn build && yarn workspace @moola-v2-liquidator/bot node dist/index.js"
   },
   "devDependencies": {
     "@types/node": "^16.11.10",

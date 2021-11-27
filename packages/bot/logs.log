@@ -16,3 +16,626 @@
 2021-11-27T10:27:17.655Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
 2021-11-27T10:27:19.698Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
 2021-11-27T10:27:21.739Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:03.818Z [32minfo[39m: 	Oracle::Initialize(): Initialized
+2021-11-27T11:34:03.832Z [32minfo[39m: 	Loans::Initialize(): Initialized
+2021-11-27T11:34:03.833Z [32minfo[39m: 	LiquidationBot::Initialize(): Initialized
+2021-11-27T11:34:04.108Z [32minfo[39m: 	Oracle::start(): Started
+2021-11-27T11:34:24.947Z [32minfo[39m: 	Loans::start(): Started
+2021-11-27T11:34:25.063Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:25.066Z [32minfo[39m: 	LiquidationBot::start(): Started
+2021-11-27T11:34:29.151Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:31.195Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:33.296Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:35.348Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:37.397Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:39.447Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:41.501Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:43.559Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:45.603Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:34:47.651Z [32minfo[39m: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:11.941Z info: 	Oracle::Initialize(): Initialized
+2021-11-27T11:35:11.955Z info: 	Loans::Initialize(): Initialized
+2021-11-27T11:35:11.955Z info: 	LiquidationBot::Initialize(): Initialized
+2021-11-27T11:35:13.914Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94554434763776114331"}
+2021-11-27T11:35:13.915Z info: 	Oracle::start(): Started
+2021-11-27T11:35:13.916Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:35:17.005Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94554434763776114331"}
+2021-11-27T11:35:19.674Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94554434763776114331"}
+2021-11-27T11:35:20.039Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94554434763776114331"}
+2021-11-27T11:35:21.517Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94554434763776114331"}
+2021-11-27T11:35:23.020Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:24.520Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:27.206Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:27.269Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:35:27.269Z info: 	Loans::start(): Started
+2021-11-27T11:35:27.270Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:27.400Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:27.401Z silly: 	
+[]
+2021-11-27T11:35:27.404Z info: 	LiquidationBot::start(): Started
+2021-11-27T11:35:27.541Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:29.880Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:30.566Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:31.403Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:31.472Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:31.472Z silly: 	
+[]
+2021-11-27T11:35:32.026Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39365071838660731737","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:33.473Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:33.531Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:33.531Z silly: 	
+[]
+2021-11-27T11:35:33.555Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:35.037Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:35.533Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:35.600Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:35.600Z silly: 	
+[]
+2021-11-27T11:35:36.696Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94529830161408256627"}
+2021-11-27T11:35:37.602Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:37.655Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:37.655Z silly: 	
+[]
+2021-11-27T11:35:38.378Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:39.656Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:39.702Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:39.703Z silly: 	
+[]
+2021-11-27T11:35:39.957Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:41.129Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:41.704Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:41.749Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:41.750Z silly: 	
+[]
+2021-11-27T11:35:42.685Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:43.751Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:43.806Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:43.806Z silly: 	
+[]
+2021-11-27T11:35:44.059Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:45.552Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:45.808Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:45.853Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:45.853Z silly: 	
+[]
+2021-11-27T11:35:47.095Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:47.855Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:47.902Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:47.903Z silly: 	
+[]
+2021-11-27T11:35:48.574Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:49.905Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:49.946Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:49.947Z silly: 	
+[]
+2021-11-27T11:35:50.473Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:51.564Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:51.947Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:51.991Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:51.992Z silly: 	
+[]
+2021-11-27T11:35:53.101Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:53.994Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:54.036Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:54.036Z silly: 	
+[]
+2021-11-27T11:35:54.565Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:56.036Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:56.078Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:56.078Z silly: 	
+[]
+2021-11-27T11:35:56.318Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:57.271Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:35:57.581Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:35:58.079Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:35:58.123Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:35:58.123Z silly: 	
+[]
+2021-11-27T11:35:59.076Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:00.123Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:00.168Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:00.168Z silly: 	
+[]
+2021-11-27T11:36:00.579Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:02.096Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39361513043650632315","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:02.169Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:02.222Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:02.222Z silly: 	
+[]
+2021-11-27T11:36:03.585Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:04.223Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:04.277Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:04.277Z silly: 	
+[]
+2021-11-27T11:36:05.094Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:06.279Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:06.323Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:06.323Z silly: 	
+[]
+2021-11-27T11:36:06.587Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:08.094Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:08.324Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:08.372Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:08.372Z silly: 	
+[]
+2021-11-27T11:36:09.603Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:10.374Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:10.422Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:10.423Z silly: 	
+[]
+2021-11-27T11:36:11.134Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:11.299Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:36:12.276Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:36:12.423Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:12.482Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:12.483Z silly: 	
+[]
+2021-11-27T11:36:12.668Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:14.110Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:14.484Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:14.537Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:14.537Z silly: 	
+[]
+2021-11-27T11:36:15.600Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:16.538Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:16.581Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:16.581Z silly: 	
+[]
+2021-11-27T11:36:17.116Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:18.582Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:18.631Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:18.632Z silly: 	
+[]
+2021-11-27T11:36:19.776Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:20.108Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:20.633Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:20.680Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:20.681Z silly: 	
+[]
+2021-11-27T11:36:21.619Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:22.681Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:22.728Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:22.728Z silly: 	
+[]
+2021-11-27T11:36:23.159Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:24.626Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:24.728Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:24.773Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:24.773Z silly: 	
+[]
+2021-11-27T11:36:26.134Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:26.774Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:26.818Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:26.818Z silly: 	
+[]
+2021-11-27T11:36:27.279Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:36:27.307Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:36:27.623Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39316697563790996918","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:28.819Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:28.871Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:28.871Z silly: 	
+[]
+2021-11-27T11:36:29.133Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:30.650Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:30.872Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:30.929Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:30.929Z silly: 	
+[]
+2021-11-27T11:36:32.142Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94501727657978227961"}
+2021-11-27T11:36:32.930Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:32.974Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:32.974Z silly: 	
+[]
+2021-11-27T11:36:33.646Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:34.976Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:35.020Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:35.020Z silly: 	
+[]
+2021-11-27T11:36:35.149Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:36.646Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:37.020Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:37.070Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:37.070Z silly: 	
+[]
+2021-11-27T11:36:38.141Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:38.237Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:36:39.073Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:39.124Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:39.124Z silly: 	
+[]
+2021-11-27T11:36:39.652Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:41.125Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:41.169Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:41.169Z silly: 	
+[]
+2021-11-27T11:36:41.172Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:42.282Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:36:42.652Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:43.170Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:43.213Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:43.214Z silly: 	
+[]
+2021-11-27T11:36:44.153Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:45.215Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:45.259Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:45.260Z silly: 	
+[]
+2021-11-27T11:36:45.661Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:47.162Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94269886779765911899"}
+2021-11-27T11:36:47.261Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:47.313Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:47.314Z silly: 	
+[]
+2021-11-27T11:36:48.667Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94246277339613824771"}
+2021-11-27T11:36:49.315Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:49.374Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:49.374Z silly: 	
+[]
+2021-11-27T11:36:50.168Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94246277339613824771"}
+2021-11-27T11:36:51.376Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:51.419Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:51.419Z silly: 	
+[]
+2021-11-27T11:36:51.668Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94246277339613824771"}
+2021-11-27T11:36:53.420Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:53.470Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:53.470Z silly: 	
+[]
+2021-11-27T11:36:54.098Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94246277339613824771"}
+2021-11-27T11:36:54.288Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:36:54.696Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94246277339613824771"}
+2021-11-27T11:36:55.472Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:55.520Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:55.520Z silly: 	
+[]
+2021-11-27T11:36:56.213Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94246277339613824771"}
+2021-11-27T11:36:57.286Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:36:57.521Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:57.563Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:57.563Z silly: 	
+[]
+2021-11-27T11:36:57.688Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39144405212457454566","cUSD":"4.94246277339613824771"}
+2021-11-27T11:36:59.180Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:36:59.565Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:36:59.612Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:36:59.612Z silly: 	
+[]
+2021-11-27T11:37:00.700Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:01.613Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:01.659Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:01.660Z silly: 	
+[]
+2021-11-27T11:37:02.209Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:03.661Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:03.725Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:03.725Z silly: 	
+[]
+2021-11-27T11:37:03.728Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:05.188Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:05.727Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:05.771Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:05.771Z silly: 	
+[]
+2021-11-27T11:37:06.689Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:07.771Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:07.817Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:07.817Z silly: 	
+[]
+2021-11-27T11:37:07.876Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:37:08.216Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:09.700Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:09.818Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:09.872Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:09.872Z silly: 	
+[]
+2021-11-27T11:37:11.202Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:11.873Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:11.917Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:11.917Z silly: 	
+[]
+2021-11-27T11:37:12.288Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:37:12.708Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:13.919Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:13.961Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:13.962Z silly: 	
+[]
+2021-11-27T11:37:14.219Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:15.732Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:15.963Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:16.007Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:16.007Z silly: 	
+[]
+2021-11-27T11:37:17.219Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:18.009Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:18.053Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:18.053Z silly: 	
+[]
+2021-11-27T11:37:18.729Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:20.054Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:20.097Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:20.097Z silly: 	
+[]
+2021-11-27T11:37:20.211Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:21.790Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39143812827627876578","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:22.098Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:22.146Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:22.147Z silly: 	
+[]
+2021-11-27T11:37:23.233Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:24.148Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:24.211Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:24.211Z silly: 	
+[]
+2021-11-27T11:37:24.729Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:25.922Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:37:26.211Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:26.256Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:26.256Z silly: 	
+[]
+2021-11-27T11:37:26.259Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:27.291Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:37:27.754Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:28.256Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:28.300Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:28.300Z silly: 	
+[]
+2021-11-27T11:37:29.226Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:30.301Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:30.348Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:30.348Z silly: 	
+[]
+2021-11-27T11:37:31.338Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:32.233Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:32.350Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:32.410Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:32.410Z silly: 	
+[]
+2021-11-27T11:37:33.737Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:34.412Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:34.456Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:34.457Z silly: 	
+[]
+2021-11-27T11:37:35.227Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:36.459Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:36.502Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:36.502Z silly: 	
+[]
+2021-11-27T11:37:36.744Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:38.245Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:38.502Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:38.549Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:38.550Z silly: 	
+[]
+2021-11-27T11:37:39.549Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:37:39.777Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:40.551Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:40.611Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:40.611Z silly: 	
+[]
+2021-11-27T11:37:41.264Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94246277339613824771"}
+2021-11-27T11:37:42.295Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:37:42.612Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:42.657Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:42.658Z silly: 	
+[]
+2021-11-27T11:37:43.017Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:44.259Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:44.659Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:44.703Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:44.703Z silly: 	
+[]
+2021-11-27T11:37:45.744Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:46.705Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:46.752Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:46.753Z silly: 	
+[]
+2021-11-27T11:37:47.260Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:48.754Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:48.805Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:48.805Z silly: 	
+[]
+2021-11-27T11:37:48.809Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:50.261Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:50.805Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:50.849Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:50.849Z silly: 	
+[]
+2021-11-27T11:37:51.763Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39141998458120190174","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:52.850Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:52.893Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:52.893Z silly: 	
+[]
+2021-11-27T11:37:53.268Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:54.768Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:54.894Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:54.944Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:54.944Z silly: 	
+[]
+2021-11-27T11:37:54.949Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:37:56.267Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:56.946Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:56.996Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:56.996Z silly: 	
+[]
+2021-11-27T11:37:57.298Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:37:57.784Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94230591729113086442"}
+2021-11-27T11:37:58.997Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:37:59.039Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:37:59.039Z silly: 	
+[]
+2021-11-27T11:38:00.654Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:00.781Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:01.041Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:01.084Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:01.084Z silly: 	
+[]
+2021-11-27T11:38:02.281Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:03.086Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:03.130Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:03.130Z silly: 	
+[]
+2021-11-27T11:38:03.804Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:05.131Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:05.174Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:05.174Z silly: 	
+[]
+2021-11-27T11:38:05.289Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:06.782Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:07.175Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:07.222Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:07.222Z silly: 	
+[]
+2021-11-27T11:38:08.299Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:09.223Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:09.283Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:09.284Z silly: 	
+[]
+2021-11-27T11:38:09.793Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:11.285Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:11.331Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:11.332Z silly: 	
+[]
+2021-11-27T11:38:11.335Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94216447175614790372"}
+2021-11-27T11:38:11.337Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:38:12.301Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:38:12.806Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:13.333Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:13.383Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:13.383Z silly: 	
+[]
+2021-11-27T11:38:14.305Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:15.385Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:15.443Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:15.443Z silly: 	
+[]
+2021-11-27T11:38:15.797Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:17.314Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:17.443Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:17.504Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:17.504Z silly: 	
+[]
+2021-11-27T11:38:18.806Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:19.505Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:19.548Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:19.549Z silly: 	
+[]
+2021-11-27T11:38:20.326Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:21.550Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:21.594Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:21.594Z silly: 	
+[]
+2021-11-27T11:38:21.818Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:23.317Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:23.594Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:23.657Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:23.657Z silly: 	
+[]
+2021-11-27T11:38:24.781Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:38:24.836Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:25.657Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:25.713Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:25.713Z silly: 	
+[]
+2021-11-27T11:38:26.319Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:27.303Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:38:27.714Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:27.758Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:27.758Z silly: 	
+[]
+2021-11-27T11:38:27.834Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:29.354Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:29.759Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:29.808Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:29.809Z silly: 	
+[]
+2021-11-27T11:38:30.847Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:31.810Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:31.864Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:31.864Z silly: 	
+[]
+2021-11-27T11:38:32.344Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:33.845Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:33.864Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:33.918Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:33.919Z silly: 	
+[]
+2021-11-27T11:38:35.395Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:35.920Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:35.970Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:35.971Z silly: 	
+[]
+2021-11-27T11:38:36.850Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:37.972Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:38.015Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:38.016Z silly: 	
+[]
+2021-11-27T11:38:38.356Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:39.867Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:40.016Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:40.063Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:40.063Z silly: 	
+[]
+2021-11-27T11:38:40.326Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:38:42.019Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:42.065Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:42.113Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:42.113Z silly: 	
+[]
+2021-11-27T11:38:42.306Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:38:42.868Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:44.114Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:44.156Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:44.156Z silly: 	
+[]
+2021-11-27T11:38:44.381Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:45.875Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:46.158Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:46.203Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:46.203Z silly: 	
+[]
+2021-11-27T11:38:47.377Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:48.205Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:48.248Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:48.248Z silly: 	
+[]
+2021-11-27T11:38:48.881Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:50.250Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:50.305Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:50.305Z silly: 	
+[]
+2021-11-27T11:38:50.386Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:51.889Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:52.306Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:52.367Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:52.367Z silly: 	
+[]
+2021-11-27T11:38:53.405Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:54.356Z debug: 	Loans::_runPolling: Finished. Total Active Loans - 845
+2021-11-27T11:38:54.368Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:54.447Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:54.447Z silly: 	
+[]
+2021-11-27T11:38:54.893Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:56.391Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:56.447Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:56.489Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:56.489Z silly: 	
+[]
+2021-11-27T11:38:57.312Z debug: 	Loans::_runPolling: Starting
+2021-11-27T11:38:58.023Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:38:58.490Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:38:58.546Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:38:58.547Z silly: 	
+[]
+2021-11-27T11:38:59.409Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:39:00.549Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:39:00.598Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:39:00.598Z silly: 	
+[]
+2021-11-27T11:39:00.912Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:39:02.406Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
+2021-11-27T11:39:02.598Z debug: 	LiquidationBot::_runPolling: Starting
+2021-11-27T11:39:02.654Z info: 	Loans::getUnHealthy(): Total Loans - 845, UnHealthy Loans - 0
+2021-11-27T11:39:02.654Z silly: 	
+[]
+2021-11-27T11:39:03.905Z debug: 	Oracle::_runPolling(): rates={"cEUR":"4.39096047092930022698","cUSD":"4.94115764236580094682"}
