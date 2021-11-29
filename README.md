@@ -1,6 +1,10 @@
-# moola-liquidator-v2
+# Moola V2 Liquidation Bot
+A Fast, Modern & Modular Liquidation Bot for Moola V2.
 
 # Features :-
+- Extermely Lightweight
+- Constant time oracle and loans filtering.
+- No need of initial funds as it uses Flashloan to liqudate. 
 
 ## Design Architecture
 
