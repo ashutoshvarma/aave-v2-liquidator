@@ -8,7 +8,7 @@ export function setIntervalSeq(fn: () => void, ms: number, timeout?: number) {
       setTimeout(fn, tm)
     } catch (error) {
       logger.error(
-        `setIntervalSeq(${fn.name}(), ${ms}, ${timeout}): Error Occured`,
+        `setIntervalSeq(${fn.name}(), ${ms}, ${timeout}): Error Occurred`,
       )
       logger.error(error)
     }

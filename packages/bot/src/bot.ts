@@ -42,7 +42,7 @@ class LiquidationBot {
   }
 
   private static async _liquidate(loan: Loan) {
-    let reciept: TransactionReceipt | undefined
+    let receipt: TransactionReceipt | undefined
     let debugData
     try {
       const assetToLiquidate = CeloTokenToAddress[loan.maxBorrowed.token]
@@ -58,7 +58,7 @@ class LiquidationBot {
         swapP,
         loan,
       }
-      reciept = await LiquidationBot._liquidation.methods
+      receipt = await LiquidationBot._liquidation.methods
         .executeFlashLoans(
           assetToLiquidate,
           flashAmt.toString(),
@@ -71,24 +71,24 @@ class LiquidationBot {
       logger.error(
         `LiquidationBot::_liquidate(${loan.user}): Error while Attempting Liquidation of user ${loan.user} with HF ${loan.healthFactor}`,
       )
-      logger.error(JSON.stringify({ debugData, reciept }))
+      logger.error(JSON.stringify({ debugData, receipt: receipt }))
       logger.error(err)
     } finally {
       const logOut = {
-        ...reciept,
+        ...receipt,
         debugData,
       }
 
       logger.info(
         `LiquidationBot::_liquidate(${loan.user}): Attempted Liquidation of user ${loan.user} with HF ${loan.healthFactor}`,
       )
-      if (reciept?.status === true) {
+      if (receipt?.status === true) {
         logger.info(`\n${JSON.stringify(logOut, null, 2)}`)
-      } else if (reciept?.status === false) {
+      } else if (receipt?.status === false) {
         logger.error(`\n${JSON.stringify(logOut, null, 2)}`)
       } else {
         logger.error(
-          `\n${JSON.stringify({ ...logOut, reciept: null }, null, 2)}`,
+          `\n${JSON.stringify({ ...logOut, receipt: null }, null, 2)}`,
         )
       }
     }
