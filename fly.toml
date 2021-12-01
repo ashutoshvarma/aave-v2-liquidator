@@ -1,0 +1,14 @@
+# fly.toml file generated for moola-bot on 2021-12-01T07:12:35Z
+
+app = "moola-bot"
+
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[env]
+  CELO_LOG_LEVEL = "debug"
+
+[experimental]
+  allowed_public_ports = []
+  auto_rollback = true
