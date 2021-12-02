@@ -213,6 +213,7 @@ export class Loans {
     )
     logger.silly('\n' + JSON.stringify(filteredLoans.slice(0, 10), null, 2))
     return filteredLoans
+    // return [unhealthy[0], ...filteredLoans]
   }
 }
 

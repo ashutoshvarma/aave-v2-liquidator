@@ -20,28 +20,26 @@ async function getLiquidationContract(kit: ContractKit) {
     )
   }
 
-  return new kit.web3.eth.Contract(
-    <any>jsonFile.abi,
-    jsonFile.address,
-  ) as unknown as LiquidateLoan
+  return new kit.web3.eth.Contract(<any>jsonFile.abi, jsonFile.address, {
+    from: kit.defaultAccount,
+  }) as unknown as LiquidateLoan
 }
 
 class LiquidationBot {
   private static _instance: LiquidationBot
-  private static _kit: ContractKit
+  static _kit: ContractKit
   private static _liquidation: LiquidateLoan
   private static _intervalFunc: NodeJS.Timer | undefined
 
   private constructor(pk: string) {
-    const kit = newKit(Config.rpc_url)
-
-    const account = kit.web3.eth.accounts.wallet.add(pk)
-    kit.web3.eth.defaultAccount = account.address
-
-    LiquidationBot._kit = kit
+    LiquidationBot._kit = newKit(Config.rpc_url)
+    LiquidationBot._kit.connection.addAccount(pk)
   }
 
   private static async _liquidate(loan: Loan) {
+    logger.info(
+      `LiquidationBot::_liquidate(${loan.user}): Attempting Liquidation`,
+    )
     let receipt: TransactionReceipt | undefined
     let debugData
     try {
@@ -61,34 +59,43 @@ class LiquidationBot {
       receipt = await LiquidationBot._liquidation.methods
         .executeFlashLoans(
           assetToLiquidate,
-          flashAmt.toString(),
+          flashAmt.toFixed().split('.')[0],
           collateral,
           loan.user,
           swapP,
         )
-        .send()
+        .send({ from: this._kit.defaultAccount })
     } catch (err) {
       logger.error(
         `LiquidationBot::_liquidate(${loan.user}): Error while Attempting Liquidation of user ${loan.user} with HF ${loan.healthFactor}`,
       )
-      logger.error(JSON.stringify({ debugData, receipt: receipt }))
       logger.error(err)
     } finally {
       const logOut = {
         ...receipt,
         debugData,
       }
-
       logger.info(
         `LiquidationBot::_liquidate(${loan.user}): Attempted Liquidation of user ${loan.user} with HF ${loan.healthFactor}`,
       )
       if (receipt?.status === true) {
-        logger.info(`\n${JSON.stringify(logOut, null, 2)}`)
+        // logger.info(`\n${JSON.stringify(logOut, null, 2)}`)
+        logger.info(
+          `LiquidationBot::_liquidate(${loan.user}): Liquidation Success: ${receipt.transactionHash}`,
+        )
       } else if (receipt?.status === false) {
-        logger.error(`\n${JSON.stringify(logOut, null, 2)}`)
+        logger.error(
+          `LiquidationBot::_liquidate(${loan.user}): ${JSON.stringify({
+            logOut,
+            receipt: receipt,
+          })}`,
+        )
       } else {
         logger.error(
-          `\n${JSON.stringify({ ...logOut, receipt: null }, null, 2)}`,
+          `LiquidationBot::_liquidate(${loan.user}): ${JSON.stringify({
+            logOut,
+            receipt: null,
+          })}`,
         )
       }
     }
@@ -104,6 +111,9 @@ class LiquidationBot {
     const pk = process.env.CELO_PRIVATE_KEY
     if (!pk) throw new Error('Please provide CELO_PRIVATE_KEY env variable')
 
+    LiquidationBot._kit = newKit(Config.rpc_url)
+    LiquidationBot._kit.connection.addAccount(pk)
+
     Oracle.Initialize()
     Loans.Initialize()
     logger.info('LiquidationBot::Initialize(): Initialized')
@@ -115,9 +125,17 @@ class LiquidationBot {
   }
 
   public static async start() {
+    const account = (await this._kit.connection.getAccounts())[0]
+    this._kit.defaultAccount = account
+
     if (LiquidationBot.isRunning()) {
       logger.info('LiquidationBot::start(): Already Running')
     }
+
+    // initialised contract
+    LiquidationBot._liquidation = await getLiquidationContract(
+      LiquidationBot._kit,
+    )
 
     await Oracle.start()
     await Loans.start()
@@ -129,10 +147,6 @@ class LiquidationBot {
       Config.bot_polling,
     )
 
-    // initialised contract
-    LiquidationBot._liquidation = await getLiquidationContract(
-      LiquidationBot._kit,
-    )
     logger.info('LiquidationBot::start(): Started')
   }
 
