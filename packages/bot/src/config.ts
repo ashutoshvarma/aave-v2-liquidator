@@ -26,7 +26,7 @@ export const Mainnet = {
 } as const
 
 const Config = {
-  log_file: 'logs.log',
+  log_file: process.env.CELO_LOG_FILE,
   log_level: process.env.CELO_LOG_LEVEL || 'info',
   rpc_url: process.env.CELO_RPC || Mainnet.rpcUrl,
   chain_id: process.env.CELO_CHAIN_ID
@@ -43,31 +43,38 @@ const Config = {
     'https://api.thegraph.com/subgraphs/name/ashutoshvarma/moola-v2-celo',
 }
 
+const myFormat = format.combine(
+  format.timestamp(),
+  format.align(),
+  format.printf(
+    (info) =>
+      `${info.timestamp} ${info.level}: ${info.message} ${
+        info.stack ? info.stack : ''
+      }`,
+  ),
+)
+
+const myTransports = Config.log_file
+  ? [
+      new transports.Console({
+        format: format.combine(format.colorize(), myFormat),
+      }),
+      new transports.File({
+        filename: Config.log_file,
+        format: myFormat,
+      }),
+    ]
+  : [
+      new transports.Console({
+        format: format.combine(format.colorize(), myFormat),
+      }),
+    ]
+
 export const logger = createLogger({
   defaultMeta: 'LiquidationBot',
   level: Config.log_level,
-  transports: [
-    new transports.Console({
-      format: format.combine(
-        format.colorize(),
-        format.timestamp(),
-        format.align(),
-        format.printf(
-          (info) => `${info.timestamp} ${info.level}: ${info.message}`,
-        ),
-      ),
-    }),
-    new transports.File({
-      filename: Config.log_file,
-      format: format.combine(
-        format.timestamp(),
-        format.align(),
-        format.printf(
-          (info) => `${info.timestamp} ${info.level}: ${info.message}`,
-        ),
-      ),
-    }),
-  ],
+  format: format.errors({ stack: true }),
+  transports: myTransports,
 })
 
 export default Config
