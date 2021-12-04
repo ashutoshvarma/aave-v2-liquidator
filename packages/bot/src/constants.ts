@@ -32,7 +32,12 @@ export const ubeswapV2Router = '0x1421bDe4B10e8dd459b3BCb598810B1337D56842'
 export const swapPath = (_a: string, _b: string) => {
   const [a, b] = [_a, _b].sort().map((i) => AddressToCeloToken[i])
 
-  if (a === CeloToken.CELO && b === CeloToken.cUSD) {
+  if (_a === _b) {
+    logger.debug(
+      `constants::swapPath(${a}, ${b}): Same asset, returning ${[_a, _b]}`,
+    )
+    return [_a, _b]
+  } else if (a === CeloToken.CELO && b === CeloToken.cUSD) {
     // CELO -> WETH -> CUSD
     // CUSD -> WETH -> CELO
     return [_a, WETH, _b]
