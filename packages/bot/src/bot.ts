@@ -56,6 +56,12 @@ class LiquidationBot {
         swapP,
         loan,
       }
+      // if flash amount is more than 5 celo then use higher gas price
+      const gasPrice = loan.maxCollateral.priceInCelo
+        .dividedBy(2)
+        .isLessThanOrEqualTo(5)
+        ? undefined
+        : '690000000'
       receipt = await LiquidationBot._liquidation.methods
         .executeFlashLoans(
           assetToLiquidate,
@@ -64,7 +70,7 @@ class LiquidationBot {
           loan.user,
           swapP,
         )
-        .send({ from: this._kit.defaultAccount })
+        .send({ from: this._kit.defaultAccount, gasPrice })
     } catch (err) {
       logger.error(
         `LiquidationBot::_liquidate(${loan.user}): Error while Attempting Liquidation of user ${loan.user} with HF ${loan.healthFactor}`,
