@@ -5,6 +5,7 @@ WORKDIR /node/src/github.com/ashutoshvarma/moola-bot
 COPY . .
 
 RUN yarn install
+RUN yarn compile
 RUN yarn build
 
 # Run the app when the vm starts
