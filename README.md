@@ -1,4 +1,4 @@
-# Moola V2 Liquidation Bot
+# Aave/Moola V2 Liquidation Bot
 A Fast, Modern & Modular Liquidation Bot for Moola V2.
 
 # Features :-
